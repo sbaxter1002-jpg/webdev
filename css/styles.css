@@ -51,7 +51,7 @@
 }
 
 .card{ 
-  max-width: 33%;
+  max-width: none;
 }
 
 .title-name {

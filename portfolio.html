@@ -32,37 +32,88 @@
         </div>
     </nav>
 
-    <header>
+    <main class="container-fluid py-5 page-enter">
+        <header class="text-center mb-5">
+            <h1 class="display-5 fw-bold mb-2">Portfolio</h1>
+            <p class="lead text-secondary mb-0">Projects I've made / working on</p>
+        </header>
 
-    </header>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- Project Card 1 -->
+            <div class="col">
+                <div class="card h-100 border border-secondary border-opacity-25 rounded-4 bg-transparent text-light">
+                    <img src="https://picsum.photos/id/1/600/400" class="card-img-top rounded-top-4" alt="Project 1 preview">
 
-    <main>
-        <div class="card-group">
-            <div class="card text-bg-primary m-3">
-                <div class="card-header">Header 1</div>
-                <img src="https://picsum.photos/id/69/1000/500" class="card-img-top" alt="">
-                <div class="card-body">
-                    <h5 class="card-title">Card Title 1</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt expedita saepe molestias? Veniam at cupiditate, fugit perspiciatis dolore totam explicabo repudiandae quis ratione debitis tenetur, ab quam soluta! Dolores, assumenda.</p>
+                    <div class="card-body p-4 surface">
+                    <h2 class="h5 fw-semibold mb-2">Project Nova Battleship Game</h2>
+                    <p class="text-secondary mb-4">
+                        Final Project I made for the intro to software development module, Using Java Swing UI I made a battleship game based on fishing, I learned simple Java awt and swing and learned to create game sprites.
+                    </p>
+
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge rounded-pill text-bg-secondary">OOP</span>
+                        <span class="badge rounded-pill text-bg-secondary">Java Swing UI</span>
+                        <span class="badge rounded-pill text-bg-secondary">Game Development</span>
+                    </div>
+
+                    </div>
                 </div>
             </div>
-            <div class="card text-bg-success m-3">
-                <div class="card-header">Header 2</div>
-                <img src="https://picsum.photos/id/69/1000/500" class="card-img-top" alt="">
-                <div class="card-body">
-                    <h5 class="card-title">Card Title 2</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt expedita saepe molestias? Veniam at cupiditate, fugit perspiciatis dolore totam explicabo repudiandae quis ratione debitis tenetur, ab qua m soluta! Dolores, assumenda.</p>
+
+            <!--Project card 2-->
+            <div class="col">
+                <div class="card h-100 border border-secondary border-opacity-25 rounded-4 bg-transparent text-light">
+                    <img src="https://picsum.photos/id/2/600/400" class="card-img-top rounded-top-4" alt="Project 1 preview">
+
+                    <div class="card-body p-4 surface">
+                    <h2 class="h5 fw-semibold mb-2">Incident Queue System</h2>
+                    <p class="text-secondary mb-4">
+                        Assignment I am currently working on for the data structures and algorithms module, using the queue data structure it takes in input from the user about an emergency incident and adds it to a queue. Also has other features such as a searching system and a trend analysis system to compare to previous days data.
+                    </p>
+
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge rounded-pill text-bg-secondary">Queues</span>
+                        <span class="badge rounded-pill text-bg-secondary">OOP</span>
+                        <span class="badge rounded-pill text-bg-secondary">Sets</span>
+                    </div>
+
+                    </div>
                 </div>
             </div>
-            <div class="card text-bg-danger m-3">
-                <div class="card-header">Header 3</div>
-                <img src="https://picsum.photos/id/69/1000/500" class="card-img-top" alt="">
-                <div class="card-body">
-                    <h5 class="card-title">Card Title 3</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt expedita saepe molestias? Veniam at cupiditate, fugit perspiciatis dolore totam explicabo repudiandae quis ratione debitis tenetur, ab quam soluta! Dolores, assumenda.</p>
+
+            <!--Project Card 3-->
+            <div class="col">
+                <div class="card h-100 border border-secondary border-opacity-25 rounded-4 bg-transparent text-light">
+                    <img src="https://picsum.photos/id/3/600/400" class="card-img-top rounded-top-4" alt="Project 1 preview">
+
+                    <div class="card-body p-4 surface">
+                    <h2 class="h5 fw-semibold mb-2">Plant Species Database</h2>
+                    <p class="text-secondary mb-4">
+                        Simple plant species database made for an assignment during the into to software development module, uses object oriented programming to add plant species inputted by the user to a database and allows for the user to display and search through the database.
+                    </p>
+
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge rounded-pill text-bg-secondary">OOP</span>
+                        <span class="badge rounded-pill text-bg-secondary">Skill 2</span>
+                        <span class="badge rounded-pill text-bg-secondary">Skill 3</span>
+                    </div>
+
+                    </div>
                 </div>
             </div>
         </div>
+
+        <footer class="mt-5 pt-4 border-top border-secondary border-opacity-25">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+                <div class="text-secondary small">By Stuart Baxter at the University of Dundee</div>
+                <div class="d-flex gap-3">
+                    <a class="link-light link-anim small" href="portfolio.html">Portfolio</a>
+                    <a class="link-light link-anim small" href="mailto:myemail@this.com">Email</a>
+                    <a class="link-light link-anim small" href="#" target="_blank" rel="noopener">Something</a>
+                </div>
+            </div>
+        </footer>
+        
     </main>
     
 
